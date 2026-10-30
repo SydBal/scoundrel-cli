@@ -40,3 +40,8 @@ npm test
 ```
 
 The suite covers the deck, fight math, healing, equipping, flee rules, room refills, win/lose, and 50 auto-played runs that must all terminate.
+
+
+## Play in your browser
+
+No install needed: [play the CLI in a browser terminal](https://dominic.balass.one/scoundrel-cli-demo/), and see the same game logic drive a tiny React component on the same page. Both run `game-core.js`, the ES module twin of `scoundrel.js`, verified to produce identical results.
